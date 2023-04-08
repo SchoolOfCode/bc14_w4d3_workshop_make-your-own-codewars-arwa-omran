@@ -1,16 +1,12 @@
 /* 
-👉 Write your kata here!
+You're a huge Rihanna fan 💃 and have created a playlist of her greatest hits for your birthday party!
+Each song in the playlist is represented as a duration in seconds, but you want to know how long the playlist is in minutes and seconds so that you can plan your party.
+The playlistLength function takes the playlist (an array) as input and returns the total duration of the playlist in minutes and seconds, in the format mm:ss.
+Don't worry, you won't have to "work work work work work" too hard on this one --or am I being unfaithful? 🤔
+HINT: You can use the padStart method to add a leading zero to the seconds if it's less than 10.
 */
 
 //👉 Write the function your CodeWarriors will start with below here:
-export function playlistStats(playlist) {
-    const numSongs = playlist.length;
-    let totalLength = 0;
-    for (let i = 0; i < playlist.length; i++) {
-      totalLength += playlist[i];
-    }
-    const minutes = Math.floor(totalLength / 60);
-    const seconds = totalLength % 60;
-  
-    return {numSongs, `${minutes}:${seconds.toString().padStart(2, '0')}`};
+export function playlistLength(playlist) {
+    // Your code here
 };

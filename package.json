@@ -2,10 +2,10 @@
   "name": "workshop_make-your-own-codewars",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "type": "module",
   "scripts": {
-    "test": "node --experimental-vm-modules"
+    "test": "node --experimental-vm-modules ./node_modules/.bin/jest"
   },
   "author": "School of Code",
   "license": "ISC",
